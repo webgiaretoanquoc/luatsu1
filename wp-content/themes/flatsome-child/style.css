@@ -1,0 +1,381 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+.div-tin-phai .box-vertical .box-text{
+	padding-bottom: 6px;
+}
+.row.row-large {
+	max-width: 1270px;
+}
+.div-footer-1 img{
+	width: 60%;
+}
+.related-post h7{
+	color: #223E99;
+}
+h5.post-title:hover{
+	color: #1F3A90;
+}
+p.call-text{
+	font-weight: bold !important;
+	font-size:18px !important;
+}
+.entry-content{
+	padding-top: 0px;
+}
+.contain_post_info >div {
+	background: #ff9400;}
+.contain_post_info .unit_cost {
+	background: #1e88e5;
+	margin-bottom: 5px;
+}
+.contain_post_info .call_now {
+	background: red;
+	margin-bottom: 5px;
+}
+.contain_post_info .booking_appointment {
+	background: #4CAF50;
+	margin-bottom: 5px;
+}
+.contain_post_info a {
+	display: block;
+	padding: 5px;
+}
+.contain_post_info .call_now span {
+	background: url(images/phone-contact.png) no-repeat 0;
+}
+.contain_post_info .unit_cost span {
+	background: url(images/abc.png) no-repeat 0;
+}
+.contain_post_info .booking_appointment span {
+	background: url(images/xyz.png) no-repeat 0;
+}
+.contain_post_info >div span, .contain_post_info .comment_here span {
+	display: inline-block;
+	background: url(images/dauhoi.png) no-repeat 0;
+	color: #ffffff;
+	padding: 10px 0;
+	padding-left: 50px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: arial;
+}
+.widget_service_desc{
+	padding: 20px 30px;
+	background-image: linear-gradient(to bottom,#ED1C24,rgb(155, 78, 78));
+}
+.widget_service_desc h4,.widget_service_desc h5,.widget_service_desc p,.widget_service_desc{
+	color: white;
+}
+.widget_service_desc ul{
+	list-style: none;
+}
+h3.title-form{
+	color: #1F3A90;
+}
+.section-form .wpcf7-submit{
+	font-weight: normal;
+	border-radius: 5px;
+}
+.section-form .wpcf7 {
+	background: url(images/bg2.png) no-repeat bottom right !important;
+	box-shadow: 0 1px 10px -1px rgba(0, 0, 0, 0.44) !important;
+	border: 1px solid #ED1C24 !important;
+	padding: 10PX;
+	border-radius: 5px;
+}
+.div-tin-moi > .col-inner:first-child{
+	box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.6);
+	padding: 10px !important;
+}
+div.header-bottom{
+	background-image: linear-gradient(to bottom,#078493,#00AEC2)
+}
+.block-no-image  h5.post-title::before{
+	content: url(images/arrow_right.png) ;
+	padding-right: 8px;
+
+
+}
+.block-no-image  h5{
+	line-height: 35px;
+	font-weight: normal !important;
+}
+.blog-tin-tren .post-item{
+	padding-bottom: 0px;
+}
+.div-tin-border > .col-inner:first-child{
+	border: 1px solid #e1e1e1;
+	padding:10px;
+}
+.block-no-image .box-text{
+	padding:0px;
+}
+.block-no-image .box-image{
+	display: none;
+}
+.title-category .icon-title img {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 35px;
+	height: 35px;
+}
+.title-category  .title-cate a {
+	color: #fff;
+}
+.title-category .title-cate {
+	padding-left: 80px;
+	height: 45px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 46px;
+	margin: 0;
+}
+.title-category .icon-title {
+	width: 70px;
+	height: 45px;
+	float: left;
+	background: #ED1C24;
+	border-radius: 0 20px 20px 0;
+	position: relative;
+}
+.ui-datepicker dl dt, .ui-datepicker dl dd {
+	display: block;
+}
+.title-category {
+	background: #00AEC2;
+	height: 45px;
+}
+
+.header-block-block-1 h3{
+	margin-bottom: 0px;
+	color: #00AEC2;
+	font-size: 17px;
+}
+.header-block-block-1 p{
+	font-weight: bold;
+	color: #DD4040;
+}
+.div-no-padding{
+	padding-bottom: 0px !important;
+}
+.blog-archive .box-text .post-title {
+	min-height: 42px;
+}
+@media(min-width: 1023px){
+	.section-du-an .form-dang-ky{
+		margin-top: 80px !important;
+		padding-bottom: 136px !important;
+	}
+	.post-sidebar{
+		padding: 0px !important
+	}
+	.section-kinh-nghiem .box-text{
+		min-height: 122px !important;
+	}
+}
+@media(max-width: 1023px){
+	.section-doi-tac .col-inner .large-3{
+		max-width: 50% !important;
+		flex-basis: 50% !important;
+	}
+}
+#nrpsctm_widget-3{
+	padding: 10px;
+	background: #CECECE;
+}
+#nrpsctm_widget-2{
+	padding: 10px;
+	background: #FEEAB8;
+}
+#nrpsctm_widget-4{
+	padding: 10px;
+	background: #FEEAB8;
+}
+.b, strong{
+	font-weight: bold !important
+}
+.nrpsctm-block li {
+	border-bottom: 1px gray dashed;}
+.widget-area .widget-title {
+	text-align: center;
+}
+.row-divided>.col+.col:not(.large-12) {
+	border-left: none
+}
+.row-hinh .row-dashed{
+	background: #E1DAD6
+}
+.row-hinh .row-dashed .col:before, .row-solid .col:before{
+	border-left: 2px solid white; 
+}support online
+.row-hinh .row-dashed .col:after, .row-solid .col:after{
+	border-bottom: 2px solid white;
+}
+.absolute-footer{
+	display: none
+}
+.footer p,.content_footer,.footer p i{
+	color:#00AEC2
+}
+.footer {
+	border-top: 3px solid #00AEC2;  
+}
+.form-dang-ky{
+	background: url(images/bg-form-res.jpg);
+	color: white;
+	padding: 13px; 
+}
+.form-dang-ky .title-dang-ky{
+	text-align: center;
+	color: white;
+
+}
+.header-main .flex-right{
+	width: 30%;
+}
+
+.form-dang-ky  .nut-dang-ky{
+	text-align: center;
+
+}
+.form-dang-ky  .nut-dang-ky .wpcf7-submit{
+	background-color: #00AEC2;
+}
+.form-dang-ky .title-dang-ky h3{
+	color: white;
+}
+.row-tin-tuc > .col > .col-inner:first-child{
+	background: #ee30321c;
+	padding: 20px 10px;
+}
+.row-khach-hang .col .col-inner{
+	background: #CECECE;
+	padding: 20px 10px;
+}
+.row-khach-hang .col .post-item .col-inner,.row-tin-tuc .col .post-item .col-inner{
+	padding: 0px !important
+}
+.row-khach-hang .box-vertical,.row-tin-tuc .box-vertical{
+	border-bottom: 1px gray dashed;
+}
+.is-divider{
+	display: none;
+}
+.full-width .ubermenu-nav, .container, .row {
+	max-width: 1280px;
+}
+.section-doi-tac h3,.section-doi-tac h2{
+	color: white
+}
+.section-doi-tac h4,.section-doi-tac p{
+	color: #00AEC2
+}
+.section-doi-tac .box-text{
+	background:white;
+}
+.flex-right ul li a{
+	text-transform: initial !important;
+	font-size: 16px;
+}
+
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+	font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+.footer p, .content_footer, .footer p i {
+	margin-bottom: 1px;
+	color: #223E99;
+	font-size: 15px;
+}
+.header-bottom-nav.nav > li > a{
+	font-weight: normal !important;
+}
+@media(min-width: 1023px){
+	label.ngay-hen,.label-so-dien-thoai{
+		width: 49% !important;
+		float: left;
+		margin-right: 8px; 
+	}
+	label.gio-hen,.label-email{
+		width: 50% !important;
+	}
+}
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
